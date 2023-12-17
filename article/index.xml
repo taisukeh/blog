@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Th&#39;s blog</title>
+    <link>localhost:1313/article/</link>
+    <description>Recent content in Articles on Th&#39;s blog</description>
+    <image>
+      <title>Th&#39;s blog</title>
+      <url>localhost:1313</url>
+      <link>localhost:1313</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Dec 2023 18:52:36 +0900</lastBuildDate>
+    <atom:link href="localhost:1313/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ブログ作成</title>
+      <link>localhost:1313/article/2023/create-blog/</link>
+      <pubDate>Sun, 17 Dec 2023 18:52:36 +0900</pubDate>
+      <guid>localhost:1313/article/2023/create-blog/</guid>
+      <description>技術的な内容を記録していくためにブログを作成した。
+ページはHugo のPaperMod theme で作成した。</description>
+    </item>
+  </channel>
+</rss>
