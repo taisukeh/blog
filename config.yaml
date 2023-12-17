@@ -1,6 +1,6 @@
 languageCode: "en-us"
-baseUrl: "https://taisukeh.github.io/blog/"
-#baseUrl: "localhost:1313"
+#baseUrl: "https://taisukeh.github.io/blog/"
+baseUrl: "localhost:1313"
 theme: "PaperMod"
 
 title: "Th's blog"
@@ -57,7 +57,7 @@ params:
     # disableFingerprinting: true
     favicon: "images/icon.jpeg"
     #favicon16x16: "<link / abs url>"
-    f#avicon32x32: "<link / abs url>"
+    #avicon32x32: "<link / abs url>"
     #apple_touch_icon: "<link / abs url>"
     #safari_pinned_tab: "<link / abs url>"
 
