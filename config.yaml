@@ -1,6 +1,6 @@
 languageCode: "en-us"
-baseUrl: "https://taisukeh.github.io/blog/"
-# baseUrl: "localhost:1313"
+#baseUrl: "https://taisukeh.github.io/blog/"
+baseUrl: "localhost:1313"
 theme: "PaperMod"
 
 title: "Th's blog"
@@ -16,6 +16,12 @@ buildExpired: false
 minify:
   disableXML: true
   minifyOutput: true
+
+outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON # 検索のために必要らしい
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -110,6 +116,10 @@ menu:
     - identifier: tags
       name: tags
       url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 20
     - identifier: example
       name: X
