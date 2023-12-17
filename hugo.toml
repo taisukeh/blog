@@ -1,4 +1,18 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+baseURL = 'http://localhost:1313/'
+languageCode = 'ja'
+languageName = 'Japanese'
+defaultContentLanguage = 'ja'
+hasCJKLanguage = true
+title = 'taisukeh blog'
+theme = 'mini'
+
+[params]
+  text_color = 'dark-gray'
+  background_color_class = 'bg-navy'
+  author = 'taisukeh'
+  favicon = '/images/profile.png'
+  site_logo = '/images/profile.png'
+
+[[params.ananke_socials]]
+  name = 'twitter'
+  url  = 'https://twitter.com/hotasuke'
