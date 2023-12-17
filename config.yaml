@@ -1,5 +1,5 @@
 languageCode: "en-us"
-baseUrl: "https://taisukeh.github.io/blog/"
+baseUrl: "https://taisukeh.github.io/blog"
 #baseUrl: "localhost:1313"
 theme: "PaperMod"
 
