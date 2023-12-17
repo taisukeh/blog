@@ -22,6 +22,11 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./public
+
   # Deploy job
   deploy:
     # Add a dependency to the build job
@@ -43,5 +48,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3 # or specific "vX.X.X" version tag for this action Inputs 📥
-        with:
-          path: ./public
