@@ -55,7 +55,7 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "images/icon.jpeg"
+    favicon: "images/profile.jpeg"
     #favicon16x16: "<link / abs url>"
     #avicon32x32: "<link / abs url>"
     #apple_touch_icon: "<link / abs url>"
@@ -63,7 +63,7 @@ params:
 
   label:
     text: ""
-    icon: /images/icon.jpeg
+    icon: /images/profile.jpeg
     iconHeight: 35
 
   # home-info mode
