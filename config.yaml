@@ -1,5 +1,6 @@
 languageCode: "en-us"
-baseUrl: "localhost:1313"
+baseUrl: "https://taisukeh.github.io/blog/"
+# baseUrl: "localhost:1313"
 theme: "PaperMod"
 
 title: "Th's blog"
